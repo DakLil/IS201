@@ -1,0 +1,106 @@
+.default_div{
+    position:absolute; border:solid 2px black; 
+    background-color:royalblue;
+}
+
+.header{
+    left: 0px;
+    right: 0px;
+height: 200px;
+text-align: center;
+}
+
+.picture-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.video-container{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.left_menu{
+    top: 201px;
+    left: 0px;
+    width: 33%;
+    height: 400px;
+    text-align: center;
+    overflow-y: auto;
+
+}
+
+.main_content{
+    top: 201px;
+    left: 33%;
+    right: 33%;
+    height: 400px;
+    text-align: center;
+    overflow-y: auto;
+}
+
+.right_menu{
+    top: 201px;
+    right: 0px;
+    width: 33%;
+    height: 400px;
+    text-align: center;
+    overflow-y: auto;
+}
+
+.top-anchor{
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    left: 0;
+    width: 100%
+
+}
+
+#topMenu {
+    scroll-margin-top: 10px;
+}
+
+
+.footer{
+    top: 452px;
+    left: 0px;
+    right: 0px;
+    height: 400px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.finaldiv{
+    top: 856px;
+    left:0px;
+    right:0px;
+    height: 20px;
+}
+
+.position{
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.list{
+    text-align: left;
+}
+
+.stats{
+    font-style: italic;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.tableauPlaceholder{
+    position: relative
+}
+
+body {
+    overflow-y: auto; /* Allow vertical scrolling */
+}
